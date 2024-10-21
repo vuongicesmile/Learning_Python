@@ -1,9 +1,12 @@
-def chao_mung(name):
-    print(f"chao mung ban {name} den voi python")
-    print(f"chuc ban {name} thanh cong")
+class NguoiVietNam:
+    def __init__(self, cao, nang):
+        self.cao = cao
+        self.nang = nang
+    def chay(self):
+        print('dang chay')
+    def ngu(self):
+        print('dang ngu')
 
- # cach 2 dong de bat dau
-print("bat dau")
-chao_mung("vuong")
-print("ket thuc")
-
+nguoi1 = NguoiVietNam(1,6)
+nguoi1.cao = 2
+print(nguoi1.chay())
