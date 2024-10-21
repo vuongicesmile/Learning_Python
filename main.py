@@ -1,8 +1,11 @@
-is_cold=True
-is_hot=True
-if is_cold:
-    print("Troi lanh")
-elif is_hot:
-    print("troi nong")
-    # neu khong thi bam shift Tab de ra dau dong
-print("chuc ban vui ve")
+name = [1, 2,3]
+
+max=name[0]
+
+# duyet qua tu dau den cuoi , nao lon hon thi gan
+for i in name:
+    if i > max:
+        max=i
+print(max)
+
+
